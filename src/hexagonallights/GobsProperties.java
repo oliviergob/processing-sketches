@@ -14,16 +14,16 @@ public class GobsProperties
 
 	
 	public static final boolean FOR_WEB_EXPORT = false;
-	public static final int SCR_WIDTH = 500;
-	public static final int SCR_HEIGHT = 350;
+	public static final int SCR_WIDTH = 700;
+	public static final int SCR_HEIGHT = 700;
 	public static final boolean REFRESH_BG = true;
 	public static final int BG_COLOR = COLOUR_BLACK;
 	
 	public static final boolean GIF_EXPORT = false;
 	private final static String PICTURE_BASE_NAME = "hexagon-dance";
-	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.jpg";
-	public static final int GIF_START_FRAME = 0;
-	public static final int GIF_NB_FRAME = 30;
+	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.png";
+	public static final int GIF_START_FRAME = 1;
+	public static final int GIF_NB_FRAME = 50;
 	public static final int GIF_FRAME_RATIO = 1;
 	
 	public static final boolean PIC_EXPORT = false;

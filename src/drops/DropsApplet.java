@@ -64,8 +64,9 @@ public class DropsApplet extends PApplet
 		}
 		dropLineList = newDropLineList;
 		
-		if ((this.frameCount % 1) == 0)
-			saveFrame("drop-######.jpg");
+		if (GobsProperties.GIF_EXPORT)
+			if (frameCount % GobsProperties.GIF_FRAME_RATIO == 0 && frameCount >= GobsProperties.GIF_START_FRAME && frameCount <= (GobsProperties.GIF_START_FRAME + (GobsProperties.GIF_NB_FRAME * GobsProperties.GIF_FRAME_RATIO )))
+				saveFrame(GobsProperties.GIF_NAME);
 	}
 	
 

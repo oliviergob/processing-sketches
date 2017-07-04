@@ -1,7 +1,5 @@
 package drops;
 
-import java.util.List;
-
 import processing.core.PVector;
 
 public class Drop

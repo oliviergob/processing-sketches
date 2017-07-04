@@ -12,10 +12,17 @@ public class GobsProperties
 
 	
 	public static final boolean FOR_WEB_EXPORT = false;
-	public static final int SCR_WIDTH = 800;
-	public static final int SCR_HEIGHT = 800;
+	public static final int SCR_WIDTH = 500;
+	public static final int SCR_HEIGHT = 400;
 	public static final boolean REFRESH_BG = true;
 	public static final int BG_COLOR = COLOUR_BLACK;
+	
+	public static final boolean GIF_EXPORT = false;
+	private final static String PICTURE_BASE_NAME = "drops";
+	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.png";
+	public static final int GIF_START_FRAME = 150;
+	public static final int GIF_NB_FRAME = 200;
+	public static final int GIF_FRAME_RATIO = 1;
 	
 	public static final int MIN_ROBAKI = 120;
 	public static final int MAX_ROBAKI = 250;

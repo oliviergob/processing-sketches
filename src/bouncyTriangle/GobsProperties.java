@@ -22,11 +22,11 @@ public class GobsProperties
 	public static final RGBColor BG_COLOR = COLOUR_BLACK;
 	
 	public static final boolean GIF_EXPORT = false;
-	private final static String PICTURE_BASE_NAME = "movin-triangle-01";
-	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.gif";
-	public static final int GIF_START_FRAME = 0;
-	public static final int GIF_NB_FRAME = 60;
-	public static final int GIF_FRAME_RATIO = 4;
+	private final static String PICTURE_BASE_NAME = "bouncy-triangle-01";
+	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.png";
+	public static final int GIF_START_FRAME = 45;
+	public static final int GIF_NB_FRAME = 200;
+	public static final int GIF_FRAME_RATIO = 1;
 	
 	public static final boolean PIC_EXPORT = false;
 	public static final int PIC_FRAME = 220;
