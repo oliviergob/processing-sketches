@@ -22,10 +22,10 @@ public class GobsProperties
 	public static final RGBColor BG_COLOR = COLOR_BLACK;
 	
 	public static final boolean GIF_EXPORT = false;
-	private final static String PICTURE_BASE_NAME = "sea-of-time-01-";
-	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.gif";
+	private final static String PICTURE_BASE_NAME = "growing-triangles-01";
+	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.png";
 	public static final int GIF_START_FRAME = 2000;
-	public static final int GIF_NB_FRAME = 66;
+	public static final int GIF_NB_FRAME = 50;
 	public static final int GIF_FRAME_RATIO = 1;
 	
 	public static final boolean PIC_EXPORT = false;
@@ -40,7 +40,7 @@ public class GobsProperties
 	public final static int TRIANGLE_RELEASE_RATE = 50;
 	public final static int TRIANGLE_BLUR = 1;
 	public final static int TRIANGLE_SPEED = 3;
-	public final static int TRIANGLE_LIFE_SPAN = 1200;
+	public final static int TRIANGLE_LIFE_SPAN = 1400;
 	
 	protected static final float TRIANGLE_ORIGINAL_SPEED = (float) 0.1;
 	protected static final float TRIANGLE_SPEED_INCREMENT = (float) 0.001;

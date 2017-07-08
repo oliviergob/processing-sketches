@@ -22,10 +22,10 @@ public class GobsProperties
 	public static final RGBColor BG_COLOR = COLOR_BLACK;
 	
 	public static final boolean GIF_EXPORT = false;
-	private final static String PICTURE_BASE_NAME = "sea-of-time-01-";
-	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.gif";
-	public static final int GIF_START_FRAME = 2000;
-	public static final int GIF_NB_FRAME = 66;
+	private final static String PICTURE_BASE_NAME = "growing-triangles-08";
+	public final static String GIF_NAME = PICTURE_BASE_NAME +"-####.png";
+	public static final int GIF_START_FRAME = 1000;
+	public static final int GIF_NB_FRAME = 100;
 	public static final int GIF_FRAME_RATIO = 1;
 	
 	public static final boolean PIC_EXPORT = false;

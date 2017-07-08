@@ -31,5 +31,5 @@ do
     cp $filename output/${project}_${j}.png
 done
 
-ffmpeg -framerate $framerate -i output/${project}_%04d.png -vf fps=50 $project.gif
+ffmpeg -framerate $framerate -i output/${project}_%04d.png -vf fps=50,hue=s=0,format=gray $project.gif
 
