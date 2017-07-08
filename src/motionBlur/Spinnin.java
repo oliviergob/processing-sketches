@@ -1,4 +1,4 @@
-package MotionBlur;
+package motionBlur;
 
 import processing.core.PApplet;
 
